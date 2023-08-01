@@ -19,7 +19,7 @@ add1(20,50);  //output is  70
 
 //Annonymus fuction
 //here we didnt take name of function
-const display=function()
+const display=function():void
 {
     console.log("hello all")
 }

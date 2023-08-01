@@ -16,7 +16,7 @@ export class person
 
 }
 //default export
-export default function sayHello1()
+export default function sayHello1():void
 {
     console.log("hello from default ts");
 }
