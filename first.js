@@ -1,0 +1,12 @@
+let msg = "hello all";
+console.log(msg);
+let n = 10;
+let flag = true;
+let person = { name: "sara", address: "bangalore" };
+let b;
+b = 10;
+b = "hello";
+b = true;
+let x;
+x = "open";
+// x="hello";
