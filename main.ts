@@ -1,10 +1,21 @@
-// let ar1:Number[]=[1,2,3,4,5,6];
-// const test=(n)=>n%2==0;
-// let result=ar1.filter((n)=>test(n));
-// console.log(result);
+//number array
+let ar1:Number[]=[1,2,3,4,5,6];
+const test=(n:any)=>n%2==0;
+let result=ar1.filter((n)=>test(n));
+console.log(result);
 
 
-let arr1:string[]=["sara","hello Jhon"];
+//or you can write like below for above function
+
+let arrayName:Number[]=[1,2,3,4,5,6,8,10];
+// const test1=(n:any)=>n%2==0;
+let result1:any=arrayName.filter((n:any)=>n%2==0);
+console.log(result1);
+
+
+//string array
+
+let arr1:string[]=["sara","hello Jhon","sarwade"];
 
 let arr2:string[]=arr1.filter((name)=>name.startsWith("s"));
 
