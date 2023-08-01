@@ -9,4 +9,3 @@ b = "hello";
 b = true;
 let x;
 x = "open";
-// x="hello";
