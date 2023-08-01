@@ -1,24 +1,24 @@
-class Employe
+class Employe             //class
 {
-    id:number;
+    id:number;              // class member
     name:string;
     salary:number;
-    constructor(id,name,salary)
+    constructor(id:number,name:string,salary:number)  //constructor
     {
         this.id=id;
-        this.name+name;
+        this.name=name;
         this.salary=salary;
     }
-    displayEmpInfo()
+    displayEmpInfo()                       //fun to display info
     {
-        console.log(`${this.id} ${this.name} ${this.salary}`)
+        console.log(`Emp Id is:${this.id} Name:${this.name} salary:${this.salary}`)
     }
 }
 
-class Manger extends Employe
+class Manager extends Employe      // subclass which inherit property from baseclass
 {
     project:string;
-    constructor(id,name,salary,project)
+    constructor(id:number,name:string,salary:number,project:any)
     {
         super(id,name,salary);
         this.project=project;
@@ -28,8 +28,8 @@ class Manger extends Employe
         console.log(`${this.project}`);
     }
 }
-let Manager:Manger=new Manger(101,"vinod",50000,"banking");
-Manager.displayEmpInfo();
+let Manager1:Manager=new Manager(101,"vinod",50000,"banking");
+Manager1.displayEmpInfo();
 
 
 //assignment
@@ -37,7 +37,7 @@ class Animal
 {
     name:string;
     age:number;
-    constructor(name,age)
+    constructor(name:string,age:number)
     {
         this.name=name;
         this.age=age;
@@ -48,7 +48,7 @@ class Animal
 }
 
 class Dog extends Animal {
-    constructor(name,age)
+    constructor(name:string,age:number)
     {
         super(name,age)
     }
@@ -58,7 +58,7 @@ class Dog extends Animal {
 
 }
 class Cat extends Animal{
-    constructor(name,age)
+    constructor(name:string,age:number)
     {
         super(name,age);
     }

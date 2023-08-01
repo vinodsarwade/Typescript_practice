@@ -8,7 +8,7 @@ b=true;
 type windowStatus= "open" | "closed" |"minimized";
 let x:windowStatus;
 x="open";
-// x="hello";
+
 
 
 

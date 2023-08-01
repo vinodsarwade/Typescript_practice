@@ -21,6 +21,6 @@ var person = /** @class */ (function () {
 exports.person = person;
 //default export
 function sayHello1() {
-    console.log("hello from ts");
+    console.log("hello from default ts");
 }
 exports.default = sayHello1;
