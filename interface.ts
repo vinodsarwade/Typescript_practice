@@ -4,8 +4,8 @@ interface point{
 }
 let p1:point={A:10,B:20};
 
-function displayPoint(p:point){
-    console.log(`x=${p.A} and y=${p.B}`);
+function displayPoint(p1:point){
+    console.log(`x=${p1.A} and y=${p1.B}`);
 }
 
 interface user{
@@ -27,7 +27,7 @@ class userImplements implements user
     firstname: string;
     lastname: string;
 
-    constructor(id, firstname,lastname)
+    constructor(id:number, firstname:string,lastname:string)
     {
         this.id=id;
         this.firstname=firstname;
@@ -39,7 +39,7 @@ class userImplements implements user
 }
 let u :user= new userImplements(101,"vinod","sarwade")
 {
-    console.log(u.getFullname);
+    console.log(u);
 
 }
 

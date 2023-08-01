@@ -1,14 +1,13 @@
 var p1 = { A: 10, B: 20 };
-function displayPoint(p) {
-    console.log("x=".concat(p.A, " and y=").concat(p.B));
+function displayPoint(p1) {
+    console.log("x=".concat(p1, " and y=").concat(p1));
 }
-/*const user:user={
-    id:101,
-    firstname:"vinod",
-    lastname:"sarwade",
-    getFullname:()=>`name is ${firstname} ${lastname}`
-      
-}*/
+// const user:user={
+//     id:101,
+//     firstname:"vinod",
+//     lastname:"sarwade",
+//     getFullname:()=>user.firstname
+// }
 var userImplements = /** @class */ (function () {
     function userImplements(id, firstname, lastname) {
         this.id = id;
@@ -22,7 +21,7 @@ var userImplements = /** @class */ (function () {
 }());
 var u = new userImplements(101, "vinod", "sarwade");
 {
-    console.log(u.getFullname);
+    console.log(u);
 }
 var object1 = {
     key: 101,
